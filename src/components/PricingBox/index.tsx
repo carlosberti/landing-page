@@ -32,7 +32,7 @@ const PricingBox = ({
       <div>
         <S.ButtonFullPrice>R${totalPrice}</S.ButtonFullPrice>
         <S.ButtonDiscountPrice>
-          R${numberInstallments * priceInstallment}
+          R${parseInt(numberInstallments) * parseInt(priceInstallment)}
         </S.ButtonDiscountPrice>
       </div>
     </Button>
