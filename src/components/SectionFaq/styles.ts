@@ -42,19 +42,3 @@ export const Question = styled.div`
     }
   `}
 `
-
-export const ExtraQuestion = styled.div`
-  ${({ theme }) => css`
-    margin-top: ${theme.spacings.medium};
-
-    a {
-      border-bottom: 1px solid ${theme.colors.secondary};
-      color: ${theme.colors.secondary};
-      text-decoration: none;
-    }
-
-    ${media.greaterThan('medium')`
-      margin-top: ${theme.spacings.xlarge};
-    `}
-  `}
-`
